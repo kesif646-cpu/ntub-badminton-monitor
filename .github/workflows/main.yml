@@ -1,9 +1,9 @@
-name: NTUB 羽球每20分鐘
+name: NTUB 羽球每5分鐘
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/20 * * * *"
+    - cron: "*/5 * * * *"
       timezone: "Asia/Taipei"
 
 permissions:
