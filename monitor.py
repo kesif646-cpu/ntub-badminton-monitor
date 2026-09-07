@@ -454,7 +454,7 @@ a{{color:#a9c7ff}}
       401 402／體育館 羽球
     </div>
     <div class="meta">
-      <div><span>檢查頻率</span><strong>每 20 分鐘</strong></div>
+      <div><span>檢查頻率</span><strong>每 5 分鐘</strong></div>
       <div><span>資料來源</span><strong>{source or "北商課程查詢"}</strong></div>
     </div>
   </section>
@@ -467,7 +467,7 @@ a{{color:#a9c7ff}}
   </section>
 
   <p class="small">
-    此頁面由 GitHub Actions 自動更新。排程服務可能偶爾延遲，因此「每 20 分鐘」代表預定檢查頻率，
+    此頁面由 GitHub Actions 自動更新。排程服務可能偶爾延遲，因此「每 5 分鐘」代表預定檢查頻率，
     並非保證精確到秒。
   </p>
 </div>
