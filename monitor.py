@@ -520,7 +520,7 @@ def render_page(result: dict, state: dict):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#101319">
-<title>北商羽球選課監控</title>
+<title>北商羽球</title>
 <style>
 *{{box-sizing:border-box}}
 body{{margin:0;background:#0d1015;color:#f4f7fb;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans-serif}}
@@ -535,7 +535,7 @@ h1{{font-size:21px;margin:0}}
 .big{{font-size:64px;font-weight:800;letter-spacing:-2px;line-height:1.05;margin:8px 0}}
 .label{{color:#aeb7c4;font-size:15px}}
 .course{{line-height:1.75;color:#d7dde6}}
-.meta{{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}}
+.meta{{display:grid;grid-template-columns:1fr;gap:10px;margin-top:18px}}
 .meta div{{background:#11151b;border-radius:14px;padding:13px}}
 .meta span{{display:block;color:#8e99a8;font-size:12px;margin-bottom:5px}}
 .meta strong{{font-size:14px}}
@@ -558,7 +558,7 @@ a{{color:#a9c7ff}}
 <body>
 <div class="wrap">
   <div class="top">
-    <h1>🏸 北商羽球選課監控</h1>
+    <h1>🏸 北商羽球課</h1>
     <span class="badge {status_class}">{badge}</span>
   </div>
 
@@ -578,7 +578,6 @@ a{{color:#a9c7ff}}
     </div>
     <div class="meta">
       <div><span>檢查頻率</span><strong>每 5 分鐘</strong></div>
-      <div><span>資料來源</span><strong>{source or "北商課程查詢"}</strong></div>
     </div>
   </section>
 
